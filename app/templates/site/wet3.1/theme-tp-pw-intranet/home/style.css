@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*!
+ * From Canada Theme v1.1a / Thème Canada v1.1a
+ * Martin Richer - Interface Design / Conception d'interfaces
+ * Date Modified: / Date de modification : 2011-12-08
+*/
+
+
+
+/* MODIFIED BASED ON WET 3.0 CSS AND PWGSC HOME PAGE CSS */
+
+
+
+#gcwu-content h2, #gcwu-headlines h2, #gcwu-priorities h3, #gcwu-didyouknow h3
+{
+color: #567;
+font-weight: normal;
+background:#666 url('h-square.gif') no-repeat left top;color:#FFF;font-size:1em;font-weight:700;margin-bottom:5px;margin-left:0;margin-right:0;padding:3px 3px 3px 25px
+}
+
+
+
+/* ADDED APRIL 19, 2012 DT */
+a:active img, a:focus img, a:hover img {outline-style:dotted; outline-width:thin}
+
+
+#gcwu-links ul ul{margin-left:23px !important; }
+#gcwu-links li:first-child{padding:4px 0; }
+#gcwu-links li{font-size:1em;padding-bottom:4px; }
+#gcwu-links li li{font-size:100%;padding-bottom:0; }
+
+div#gcwu-headlines ul,div#gcwu-headlines ul li {list-style-image:url('bullet.gif') !important; margin-left:15px !important; }
+
+#gcwu-connect-tile ul, #gcwu-connect-tile li, #gcwu-connect-tile img {display: inline; float: left; padding-right: 10px;}
+
+
+#gcwu-didyouknow p {padding:0 10px 0 10px; margin-left:0; margin-right:0;}
+
+
+
+

@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+#gcwu-psnb {
+}
+#gcwu-psnb-in {
+}
+.mb-menu ul li {
+	background: url("../images/cn-psnb2.gif") repeat-x 0 0 #555555;
+	border: 0;
+
+}
+#gcwu-psnb .mb-menu li {
+/*	background: url("../images/cn-psnb2.gif") repeat-x scroll 0 top #555555;
+	border: 0;*/
+
+
+border-left-color: #7B1B9F;
+border-right-color: #8C31A3;
+
+}
+#gcwu-psnb .mb-menu .expandicon {
+background-image: url(../images/expandicon.png);
+}
+
+#gcwu-psnb .mb-menu {
+	background: url("../images/cn-psnb2.gif") repeat-x scroll 0 top #555555;
+	border: 0;
+	min-height: 32px;
+}
+
+#gcwu-psnb .mb-menu .nav-current {
+	background: url("../images/cn-psnb2.gif") repeat-x scroll 0 0;
+}
+
+#gcwu-psnb .mb-active a.mb-has-sm:hover, #gcwu-psnb .mb-active a.mb-has-sm:link, #gcwu-psnb .mb-active a.mb-has-sm:visited {
+    background: #CCC;
+    color: #000;
+}
+
+#gcwu-bnr {
+	background: url("../images/bnr-1px.jpg") repeat-x scroll 0;
+	border-top: 1px solid #EEEEEE;
+	clear: both;
+	position: static;
+
+}
+
+#gcwu-bnr-in {
+	background: url("../images/bnr-1px.jpg") repeat-x scroll 0;
+}
+
+#tp-pw-sft {
+    background: url("../images/ftr-mid.png") repeat-x scroll left top transparent;
+    padding-bottom: 0;
+}
+
+#tp-pw-banner {
+    background: url("../images/bnr-1px.jpg") repeat-x scroll 0 #306754;
+}
+
+#tp-pw-banner-inner {
+    background: transparent url("../images/bg-source-left.jpg") no-repeat; min-height:52px; max-height:52px; background-position: left 0;
+}
+
+#tp-pw-banner-inner2 {
+    background: transparent url("../images/bg-source-right.jpg") no-repeat; min-height:52px; background-position:right 0px !important; 
+}
+
+.ie8 #tp-pw-banner-inner, .ie7 #tp-pw-banner-inner {
+    background: transparent url("../images/bg-source3.jpg") no-repeat; min-height:52px; max-height:52px; background-position: left 0; padding-top: -1px;
+}
+
+.ie8 #tp-pw-banner-inner2, .ie7 #tp-pw-banner-inner2 {
+    background: transparent url("../images/bg-source4.jpg") no-repeat; min-height:52px; background-position:right 0px !important; padding-top: -1px;
+}
+
+#gcwu-sig, #gcwu-sig-in, #gcwu-sig img{height:33px !important;overflow:visible !important;}
+
+/* FOOTER - INTRANET BANNER REMOVAL */
+#gcwu-sft {
+	padding-bottom:0;
+	background:none /*repeat-x left bottom*/;
+}
+
+#gcwu-sft-in {
+	padding-bottom:22px;
+	padding-top:10px;
+	background:none;
+}
+
+.ie7 #gcwu-sft-in{background:none;}
+
+.ie8 #gcwu-sft-in{background:none;}
+
+/* DDS SEARCH - TOP BANNER */
+#cn-dds-box {
+	padding: 0px 5px 1px 1px;
+	position: relative;
+	z-index:100;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	border-radius:2px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+
+#cn-dds-box input {
+	margin:0;
+	min-height:0;
+}
+
+#cn-dds-box label, #cn-dds-box h2 {
+	clip:rect(1px,1px,1px,1px);
+	height:0!important;
+	overflow:hidden!important;
+	position:absolute;
+	width:0!important;
+	margin:0!important;
+}
+
+input.cn-dds_srch {
+	border:1px solid #ccc;
+	width:150px;
+	padding-right:20px;
+	background:#fff;
+	float: left;
+}
+
+/*input.cn-dds_qbtn {
+	background:transparent url("/site/wet3.1/theme-tp-pw-intranet/images/loupe.jpg") no-repeat;
+	display:block;
+	margin-left:-16px;
+	margin-top:7px;
+	margin-bottom:-8px;
+	position:relative;
+	float:left;
+	background:transparent;
+	border:none;
+	width:14px;
+	height:18px;
+}
+
+input.cn-dds_qbtn:hover, input.cn-dds_qbtn:focus {
+	background:transparent url("/site/wet3.1/theme-tp-pw-intranet/images/loupe2.jpg") no-repeat;
+	cursor:pointer;
+}*/
+
+/* MEGAMENU FIXES */
+/* THIS SNIPPET IS TO COLOUR THE BOTTOM OF EACH MEGAMENU DROPDOWN */
+#gcwu-psnb .mb-menu .mb-sm-open {
+	border-bottom:4px solid #5B1A51;
+	background-image:linear-gradient(bottom,#eee,#ccc);
+}
+
+/* ----------------- LEFTOVERS ----------------- */
+
+/* GREY PADDING OVER SLIDESHOW */
+#gcwu-psnb .wet-boew-menubar {
+    border-bottom: 4px solid #CCC;
+}
+
+#wb-main-in {
+	padding-top: 9px;
+}
+
+/* GREY BULLETS IN CENTRE AND RIGHT COLUMNS */
+div#gcwu-video ul,div#gcwu-video ul li,div#gcwu-didyouknow-list ul,div#gcwu-didyouknow-list ul li {
+	list-style-image:url('../home/bullet.gif') !important; margin-left:15px !important;
+}
+
+/* BLOCKQUOTE LEFT BORDER */
+blockquote,blockquote.float-left,blockquote.float-right{
+		border-left-width:8px!important;
+		border-left-color:#5B1A51!important;
+}
+
+/* RHM MENU HEADINGS */
+.module-related > :first-child {
+    background-color: #5B1A51;
+	background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#8e277e),color-stop(100%,#5b1a51))!important;
+	background-image:-webkit-linear-gradient(#8e277e,#5b1a51)!important;
+	background-image:-moz-linear-gradient(#8e277e,#5b1a51)!important;
+	background-image:-o-linear-gradient(#8e277e,#5b1a51)!important;
+	background-image:linear-gradient(#8e277e,#5b1a51)!important;
+}
+
+.module-purple-heading h2 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0px 0px 1px !important;
+    padding: 5px 10px;
+    width: auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+	text-shadow: 0px 1px 1px rgb(34, 34, 34);
+	color: white !important;
+    background-repeat: repeat-x;
+    background-size: 100% auto;
+    background-color: #5B1A51;
+	background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#8e277e),color-stop(100%,#5b1a51))!important;
+	background-image:-webkit-linear-gradient(#8e277e,#5b1a51)!important;
+	background-image:-moz-linear-gradient(#8e277e,#5b1a51)!important;
+	background-image:-o-linear-gradient(#8e277e,#5b1a51)!important;
+	background-image:linear-gradient(#8e277e,#5b1a51)!important;
+}
+
+/* REMOVE 1PX BTM BORDER UNDER CALENDAR */
+#gcwu-priorities {
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+
+/* LIGHTBOX */
+.wet-boew-lightbox > ul {margin-left:0;}
+	.wet-boew-lightbox > ul > li {list-style-type:none;float:left;margin: 0 5px 0 0;}
+	.wet-boew-lightbox ul li.box {margin-bottom: 0.4em;}
+	.wet-boew-lightbox li img {margin-bottom:0;}
+	.wet-boew-lightbox > ul > li > a {text-decoration: none;}
+	.box > a, .lb-hidden-gallery li:first-child.box > a {display: block; width: 148px; height: 148px; border: 1px solid #000; text-align: center; line-height: 148px; background: #EEE;}
+	.box > a:hover, .box > a:focus, .box > a:active {text-decoration: underline; background: #FFF;}
+	.lb-hidden-gallery .box > a {display: none;}
+	
+/* FORM BUTTONS NO BREAK */
+input[type="button"], input[type="reset"], input[type="submit"] {
+    margin-right: 5px;
+	display:inline;
+}
+#gcwu-title, #gcwu-title a{
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.ie8 #gcwu-title{
+}
+.ie8 #gcwu-title a{
+
+}
+
+#gcwu-intranetnb-in ul li {
+padding:7px 0 11px;
+
+}
+
+.dds_search_input {
+display:block !important;
+margin-left:-30px !important;
+margin-bottom:-8px !important;
+margin-right:2px !important;
+position:relative !important;
+float:left !important;
+background:transparent !important;
+   padding: 5px 7px !important;
+   color: white !important;
+   font-size: 14px !important;
+   font-family: Georgia, serif !important;
+   width:15px;
+   text-decoration: none !important;
+ 
+
+}
+#gcwu-sig-in img {
+width:331px;
+height:33px;
+}
+#gcwu-srch-submit {
+}
+
+.dds_search_list {
+  padding:2px 0 1px !important;
+
+}
+
+
+@media (max-width:959px){
+
+#tp-pw-banner-inner2 {
+	background:#FFFFFF;
+	margin-bottom:-2em;
+}
+
+}
+
+@media screen and (min-device-width: 1024px) and (min-width: 960px){
+#gcwu-title, #gcwu-title a {
+	margin: .1em 0 0 0;
+}
+}
+
