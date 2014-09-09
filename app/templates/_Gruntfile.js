@@ -104,30 +104,14 @@ module.exports = function (grunt) {
         
         // Minify images
         imagemin: {
-            png: {
-                options: {
-                    optimizationLevel: 7
-                },
-                files: [{
-                    expand: true,
-                    cwd: "src",
-                    src: [ "**/*.png" ],
-                    dest: "<%= websiteDir %>/",
-                    ext: ".png"
-                }]
-            },
-            jpg: {
-                options: {
-                    progressive: true
-                },
-                files: [{
-                    expand: true,
-                    cwd: "src",
-                    src: [ "**/*.jpg" ],
-                    dest: "<%= websiteDir %>/",
-                    ext: ".jpg"
-                }]
-            }
+			dist: {
+				files: [{
+					expand: true,
+					cwd: "src",
+					src: [ "**/*.{png,jpg,gif}" ],
+					dest: "<%= websiteDir %>/"
+				}]
+			}
         },       
 
         // Minify the JS
